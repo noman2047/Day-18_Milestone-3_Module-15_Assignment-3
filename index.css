@@ -1,0 +1,77 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+#navbarText ul li a{
+  font-size: 18px;
+}
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+
+.position{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.course{
+  text-align: center;
+}
+.main{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-color{
+  background-color: #F4FAFD;
+}
+.courseD{
+  margin-right: 30px;
+}
+.bg-color p{
+  color:#777777 ;
+} 
+.courseD h1{
+  font-size: 45;
+  font-weight:bolder;
+}
+
+.ready-to-join .col-md-6{
+  height: 150px;
+}
+.mos p{
+  color: #777777;
+}
+.course p{
+  color: #777777 ;
+}
+.aftercomma p{
+  font-size: 14px;
+  color: #777777 ;
+}
+.fdasig{
+  color: #777777 ;
+}
+.companyimage img{
+  width: 120px;
+}
+footer{
+  background-color: black;
+  height: 300px;
+}
