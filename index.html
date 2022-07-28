@@ -247,7 +247,32 @@
             </div>
             <div class="col-md-6 d-flex justify-content-center flex-column text-center">
               <div>
-                  <button class="btn btn-light text-primary fw-bold">Register Now</button>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-light text-primary fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Now</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Registration</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                     <form action="">
+                      <input class="mb-4"  type="text" placeholder="Enter Your Name"><br>
+                      <input class="mb-4" type="email" placeholder="Enter Your Email"><br>
+                      <input class="mb-4" type="number" placeholder="Enter Your Contact Number"><br>
+                      <input class="mb-4" type="password" placeholder="Enter Your password"> <br>
+                     </form>
+                    </div>
+                      <button type="button"  class="btn btn-danger border-3 text-center">Submit</button>
+                  </div>
+                </div>
+              </div>
+
+
+
               </div>
             </div>
           </div>
@@ -445,7 +470,12 @@
         <h5>Office 41, Zawaya Buildin, Ghala Muscat, 
          <span class="d-block">Sultanate of Oman</span></h5>
          <h6>Privacy Ploicy  |   Terms of use</h6>
-
+      </div>
+      <div class="social text-light mt-3">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-tiktok"></i>
       </div>
 
     </footer>
