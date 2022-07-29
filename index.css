@@ -89,15 +89,34 @@ footer{
   margin-bottom: 5px;
 }
 
-@media (max-width:576px){
-  #learning{
-    display:inline;
-    background-color: red;
+/* For Desktop Device  */
+@media (min-width:992px){
+  #tabviewreg{
+    display: none;
+
+  }
+ 
   }
 
-}
+/* For Tablet Device  */
+@media (min-width:577px) and (max-width:991px){
+  #tabviewreg{
+    margin-left: 200px;
+
+  }
+  #tabr{
+    display: none;
+  }
+ 
+  }
+
+/* For Moblie device  */
 
 @media (max-width:576px){
+  #tabviewreg{
+    display: none;
+    
+  }
   #coursedetails{
     max-width: fit-content;
 
@@ -114,6 +133,13 @@ footer{
   .meetours{
     text-align: center;
     text-wrap: none;
+  }
+
+  .feedback .card-body{
+    text-align: center;
+  }
+  #companyimage{
+    display: none;
   }
 
 
