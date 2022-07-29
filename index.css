@@ -102,9 +102,22 @@ footer{
 @media (min-width:577px) and (max-width:991px){
   #tabviewreg{
     margin-left: 200px;
+    text-align: center;
 
   }
+  .exchange{
+    display: flex;
+    flex-direction: column-reverse;
+  }
   #tabr{
+    display: none;
+  }
+  #coursedetails{
+    max-width:1200px;
+    justify-content: center;
+  }
+
+  #companyimage{
     display: none;
   }
  
