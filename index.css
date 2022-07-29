@@ -105,10 +105,7 @@ footer{
     text-align: center;
 
   }
-  .exchange{
-    display: flex;
-    flex-direction: column-reverse;
-  }
+
   #tabr{
     display: none;
   }
@@ -119,6 +116,10 @@ footer{
 
   #companyimage{
     display: none;
+  }
+  .exchange{
+    display: flex;
+    flex-direction: column-reverse;
   }
  
   }
